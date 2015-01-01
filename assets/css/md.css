@@ -29,12 +29,24 @@
   content: '**';
 }
 
+/* Asteriks for italics, use underbar if preferred (see options) */
 .style-md i:before,
 .style-md i:after,
 .style-md em:before,
 .style-md em:after  {
   content: '*';
 }
+
+/* Always underbar for italics in bold to prevent triple asteriks */
+.style-md strong i:before,
+.style-md strong i:after,
+.style-md strong em:before,
+.style-md strong em:after,
+.style-md b i:before,
+.style-md b i:after,
+.style-md b em:before,
+.style-md b em:after  {
+  content: '_';
 
 .style-md a:before,
 .style-md a:after {
@@ -188,6 +200,17 @@
 /**
  * Options
  */
+
+.style-md-underbar i:before,
+.style-md-underbar i:after,
+.style-md-underbar em:before,
+.style-md-underbar em:after,
+i.style-md-underbar:before,
+i.style-md-underbar:after,
+em.style-md-underbar:before,
+em.style-md-underbar:after  {
+  content: '_';
+}
 
 .style-md-nobrackets a:before,
 .style-md-nobrackets a:after,
