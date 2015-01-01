@@ -47,6 +47,7 @@
 .style-md b em:before,
 .style-md b em:after  {
   content: '_';
+}
 
 .style-md a:before,
 .style-md a:after {
