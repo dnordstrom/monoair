@@ -79,8 +79,8 @@ blockquote {
 blockquote,
 pre,
 dd {
-  margin: 48px 0 72px;
-  margin: 3rem 0 4.5rem;
+  margin: 48px 0 48px;
+  margin: 3rem 0 3rem;
 }
 
 small,
